@@ -1,0 +1,25 @@
+/* Original keys preserved */
+"Yes" = "Yes";
+"No" = "No";
+"NotRunTitle" = "Application is not set as Login Item.";
+"NotRunMessage" = "Do you want to start app automatically at launch?";
+
+/* Menu */
+"MenuPreferences" = "Preferences…";
+"MenuAbout" = "About Svátek";
+"MenuQuit" = "Quit";
+
+/* Menu item formats. %@ = name */
+"TodayHas"     = "Today: %@";
+"TomorrowHas"  = "Tomorrow: %@";
+"DayAfterHas"  = "Day after tomorrow: %@";
+
+/* Settings window */
+"SettingsTitle" = "Settings";
+"FontSizeLabel" = "Size of font in menu";
+"IconOnly"      = "Do not show the name in the menu, only the icon";
+"UseGrowl"      = "Enable notifications";
+"OpenAtLogin"   = "Open at Login";
+
+/* Daily notification */
+"NotifTitle"    = "Today's name day";

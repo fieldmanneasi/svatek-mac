@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+
+# Build products
+build/
+DerivedData/
+*.xcarchive
+*.app
+*.dSYM
+*.dSYM.zip
+*.ipa
+
+# SwiftPM
+.build/
+.swiftpm/
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~

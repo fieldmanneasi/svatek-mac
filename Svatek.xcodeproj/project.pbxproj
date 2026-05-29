@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* AppDelegate.swift */; };
+		A1000002 /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* SettingsWindowController.swift */; };
+		A1000003 /* NameDayProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* NameDayProvider.swift */; };
+		A1000004 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* main.swift */; };
+		A1000010 /* Svatky.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2000010 /* Svatky.strings */; };
+		A1000011 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A2000011 /* Credits.rtf */; };
+		A1000012 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2000012 /* Localizable.strings */; };
+		A1000013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000013 /* Assets.xcassets */; };
+		A1000014 /* sipka1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A2000014 /* sipka1.gif */; };
+		A1000015 /* sipka2.gif in Resources */ = {isa = PBXBuildFile; fileRef = A2000015 /* sipka2.gif */; };
+		A1000016 /* Image_plocha_mala.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000016 /* Image_plocha_mala.png */; };
+		A1000017 /* Image_plocha_mala_modra.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000017 /* Image_plocha_mala_modra.png */; };
+		A1000018 /* superman_malej.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000018 /* superman_malej.png */; };
+		A1000019 /* nic.png in Resources */ = {isa = PBXBuildFile; fileRef = A2000019 /* nic.png */; };
+		A100001A /* svatekico.icns in Resources */ = {isa = PBXBuildFile; fileRef = A200001A /* svatekico.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2000002 /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsWindowController.swift; sourceTree = "<group>"; };
+		A2000003 /* NameDayProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDayProvider.swift; sourceTree = "<group>"; };
+		A2000004 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A2000010 /* Svatky.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Svatky.strings; sourceTree = "<group>"; };
+		A2000011 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		A2000012 /* Localizable.strings */ = {isa = PBXVariantGroup; children = (A20000C1 /* cs */, A20000C2 /* en */); name = Localizable.strings; sourceTree = "<group>"; };
+		A20000C1 /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A20000C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A2000013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000014 /* sipka1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sipka1.gif; sourceTree = "<group>"; };
+		A2000015 /* sipka2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sipka2.gif; sourceTree = "<group>"; };
+		A2000016 /* Image_plocha_mala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image_plocha_mala.png; sourceTree = "<group>"; };
+		A2000017 /* Image_plocha_mala_modra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image_plocha_mala_modra.png; sourceTree = "<group>"; };
+		A2000018 /* superman_malej.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = superman_malej.png; sourceTree = "<group>"; };
+		A2000019 /* nic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nic.png; sourceTree = "<group>"; };
+		A2000020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A200001A /* svatekico.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = svatekico.icns; sourceTree = "<group>"; };
+		A2000099 /* Svatek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Svatek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A3000000 = {
+			isa = PBXGroup;
+			children = (
+				A3000001 /* Svatek */,
+				A3000099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3000001 /* Svatek */ = {
+			isa = PBXGroup;
+			children = (
+				A3000002 /* Sources */,
+				A3000003 /* Resources */,
+			);
+			path = Svatek;
+			sourceTree = "<group>";
+		};
+		A3000002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001 /* AppDelegate.swift */,
+				A2000002 /* SettingsWindowController.swift */,
+				A2000003 /* NameDayProvider.swift */,
+				A2000004 /* main.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		A3000003 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2000020 /* Info.plist */,
+				A2000012 /* Localizable.strings */,
+				A2000010 /* Svatky.strings */,
+				A2000011 /* Credits.rtf */,
+				A2000013 /* Assets.xcassets */,
+				A2000014 /* sipka1.gif */,
+				A2000015 /* sipka2.gif */,
+				A2000016 /* Image_plocha_mala.png */,
+				A2000017 /* Image_plocha_mala_modra.png */,
+				A2000018 /* superman_malej.png */,
+				A2000019 /* nic.png */,
+				A200001A /* svatekico.icns */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A3000099 /* Products */ = {
+			isa = PBXGroup;
+			children = ( A2000099 /* Svatek.app */ );
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4000001 /* Svatek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6000001 /* Build configuration list for PBXNativeTarget "Svatek" */;
+			buildPhases = (
+				A5000001 /* Sources */,
+				A5000002 /* Resources */,
+				A5000003 /* Frameworks */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = Svatek;
+			productName = Svatek;
+			productReference = A2000099 /* Svatek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = { A4000001 = { CreatedOnToolsVersion = 15.0; }; };
+			};
+			buildConfigurationList = A6000000 /* Build configuration list for PBXProject */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = cs;
+			hasScannedForEncodings = 0;
+			knownRegions = ( cs, en, Base );
+			mainGroup = A3000000;
+			productRefGroup = A3000099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = ( A4000001 /* Svatek */ );
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000010 /* Svatky.strings in Resources */,
+				A1000011 /* Credits.rtf in Resources */,
+				A1000012 /* Localizable.strings in Resources */,
+				A1000013 /* Assets.xcassets in Resources */,
+				A1000014 /* sipka1.gif in Resources */,
+				A1000015 /* sipka2.gif in Resources */,
+				A1000016 /* Image_plocha_mala.png in Resources */,
+				A1000017 /* Image_plocha_mala_modra.png in Resources */,
+				A1000018 /* superman_malej.png in Resources */,
+				A1000019 /* nic.png in Resources */,
+				A100001A /* svatekico.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* AppDelegate.swift in Sources */,
+				A1000002 /* SettingsWindowController.swift in Sources */,
+				A1000003 /* NameDayProvider.swift in Sources */,
+				A1000004 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = ();
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ( "DEBUG=1", "$(inherited)" );
+			};
+			name = Debug;
+		};
+		A8000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A8000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Svatek/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/../Frameworks" );
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sandwichlab.svatek";
+				PRODUCT_NAME = "Svatek";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A8000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Svatek/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = ( "$(inherited)", "@executable_path/../Frameworks" );
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sandwichlab.svatek";
+				PRODUCT_NAME = "Svatek";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6000000 /* Build configuration list for PBXProject */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = ( A8000001 /* Debug */, A8000002 /* Release */ );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6000001 /* Build configuration list for PBXNativeTarget "Svatek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = ( A8000003 /* Debug */, A8000004 /* Release */ );
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7000000 /* Project object */;
+}

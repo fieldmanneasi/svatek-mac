@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>cs</string>
+    <key>CFBundleExecutable</key>
+    <string>Svatek</string>
+    <key>CFBundleIconFile</key>
+    <string>svatekico</string>
+    <key>CFBundleIdentifier</key>
+    <string>net.sandwichlab.svatek</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Svátek</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>3.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>11.0</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSSupportsAutomaticTermination</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>Public domain (Unlicense). No rights reserved.</string>
+</dict>
+</plist>

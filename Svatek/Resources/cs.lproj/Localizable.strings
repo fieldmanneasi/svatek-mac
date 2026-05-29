@@ -1,0 +1,25 @@
+/* Original keys preserved */
+"Yes" = "Ano";
+"No" = "Ne";
+"NotRunTitle" = "Aplikace se nyní nespouští při zapnutí počítače.";
+"NotRunMessage" = "Přejete si aplikaci spouštět automaticky při startu?";
+
+/* Menu */
+"MenuPreferences" = "Nastavení";
+"MenuAbout" = "O aplikaci Svátek";
+"MenuQuit" = "Ukončit";
+
+/* Menu item formats. %@ = name */
+"TodayHas"     = "Dnes má svátek %@";
+"TomorrowHas"  = "Zítra má svátek %@";
+"DayAfterHas"  = "Pozítří má svátek %@";
+
+/* Settings window */
+"SettingsTitle" = "Nastavení";
+"FontSizeLabel" = "Velikost fontu v menu";
+"IconOnly"      = "nezobrazovat v menu jméno, pouze miniaturu";
+"UseGrowl"      = "Používat oznámení";
+"OpenAtLogin"   = "Načítat aplikaci při spuštění počítače";
+
+/* Daily notification */
+"NotifTitle"    = "Dnes má svátek";
